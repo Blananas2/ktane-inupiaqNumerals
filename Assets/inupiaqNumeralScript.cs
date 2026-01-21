@@ -231,13 +231,14 @@ public class inupiaqNumeralScript : MonoBehaviour {
     {
         new Dictionary<string, object>
         {
-            { "Filename", "InupiaqNumerals.json" }, //okay it's not like that in-game? idk what's up with that --me right after workshop push on the 29th
+            { "Filename", "InupiaqNumerals.json" },
             { "Name", "Iñupiaq Numerals Settings" },
-            { "Listing", new List<Dictionary<string, object>>{
+            { "Listings", new List<Dictionary<string, object>>{
                 new Dictionary<string, object>
                 {
                     { "Key", "TotalStages" },
-                    { "Text", "Amount of stages the module will have." }
+                    { "Text", "Stages" },
+                    { "Description", "Number of stages the module will have." }
                 }
             } }
         }
