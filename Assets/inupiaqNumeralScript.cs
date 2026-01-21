@@ -231,7 +231,7 @@ public class inupiaqNumeralScript : MonoBehaviour {
     {
         new Dictionary<string, object>
         {
-            { "Filename", "InupiaqNumerals.json" },
+            { "Filename", "InupiaqNumeralsSettings.json" },
             { "Name", "Iñupiaq Numerals Settings" },
             { "Listings", new List<Dictionary<string, object>>{
                 new Dictionary<string, object>
